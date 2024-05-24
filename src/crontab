@@ -1,0 +1,7 @@
+# Must end with Unix LF and empty line at the end
+
+CRON_LOG=/tmp/cron.log
+
+* * * * * /bin/bash /app/cronjob.sh service-job >> ${CRON_LOG} 2>&1
+
+* * * * * printenv >> ${CRON_LOG} 2>&1

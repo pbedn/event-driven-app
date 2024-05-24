@@ -1,0 +1,16 @@
+# Core
+python_dotenv==1.0.*
+
+# Web
+fastapi==0.110.*
+uvicorn==0.27.*
+jinja2==3.1.*
+
+# Kafka
+confluent-kafka==2.3.*
+
+# Scheduler
+schedule==1.2.*
+
+# Mongo
+pymongo==4.6.*

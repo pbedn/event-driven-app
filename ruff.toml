@@ -1,0 +1,20 @@
+exclude = ["src/dev/"]
+
+line-length = 88
+indent-width = 4
+
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "UP", "B"]
+ignore = ["F403", "F405", "E501", "E701"]
+
+fixable = ["ALL"]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+
+skip-magic-trailing-comma = true
+
+line-ending = "auto"
